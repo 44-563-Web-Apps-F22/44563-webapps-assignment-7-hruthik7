@@ -80,7 +80,7 @@ function check(position){
   
  }
  else{
-  imgLoc.src="empty.jpg";
+  imgLoc.src="emptytreasure.jpg";
  }
  chestCount+=1;
  score+=1;
@@ -91,15 +91,15 @@ function check(position){
 function help(){
   column=lastCheck%5;
   row=lastCheck/5;
-  treasureColumn=treasureLocation%5;
-  treasureRow=treasureLocation/5;
+  Columnoftreasure=treasureLocation%5;
+  Rowoftreasure=treasureLocation/5;
   score+=2;
   document.getElementById("score").innerHTML="Score is "+score+".";
   if(lastCheck==treasureLocation){
     document.getElementById("help").innerHTML="Sorry, no help available";
   }
-  else if(parseInt(row)==parseInt(treasureRow)){
-    if(row<treasureRow){
+  else if(parseInt(row)==parseInt(Rowoftreasure)){
+    if(row<Rowoftreasure){
       document.getElementById("help").innerHTML="right";
     }
     else{
