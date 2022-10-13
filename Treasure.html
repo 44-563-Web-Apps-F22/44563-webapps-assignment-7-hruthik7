@@ -18,105 +18,170 @@
     <p id="chests" style="color:lightblue; background-color: orange; font-style: inherit;">Number of chests checked is zero</p>
     <p id="score" style="color:lightpink; background-color: lightcyan; font-style: italic;">Score is unknown</p>
     <p id="help" style="color:lightskyblue; background-color: lightgoldenrodyellow; text-align: start;"> Help report</p>   
-    
-<div class="container">
-    <div class="image-row d-flex justify-content-center">
-    <div><img id="h1" width=110 height=110 src="closed.jpg" onclick="check(0)"></div>
-    <div><img id="h2" width=110 height=110 src="closed.jpg" onclick="check(1)"></div>
-    <div><img id="h3" width=110 height=110 src="closed.jpg" onclick="check(2)"></div>
-    <div><img id="h4" width=110 height=110 src="closed.jpg" onclick="check(3)"></div>
-    <div><img id="h5" width=110 height=110 src="closed.jpg" onclick="check(4)"></div>
-</div>
-</div>
-<div class="container">
-    <div class="image-row d-flex justify-content-center">
-    <div><img id="h6" width=110 height=110 src="closed.jpg" onclick="check(5)"></div>
-    <div><img id="h7" width=110 height=110 src="closed.jpg" onclick="check(6)"></div>
-    <div><img id="h8" width=110 height=110 src="closed.jpg" onclick="check(7)"></div>
-    <div><img id="h9" width=110 height=110 src="closed.jpg" onclick="check(8)"></div>
-    <div><img id="h10" width=110 height=110 src="closed.jpg" onclick="check(9)"></div>
-</div>
-</div>
-<div class="container">
-    <div class="image-row d-flex justify-content-center">
-    <div><img id="h11" width=110 height=110 src="closed.jpg" onclick="check(10)"></div>
-    <div><img id="h12" width=110 height=110 src="closed.jpg" onclick="check(11)"></div>
-    <div><img id="h13" width=110 height=110 src="help.jpg"onclick="help()"></div>
-    <div><img id="h14" width=110 height=110 src="closed.jpg" onclick="check(12)"></div>
-    <div><img id="h15" width=110 height=110 src="closed.jpg" onclick="check(13)"></div>
-    </div>
-</div>
-<div class="container">
-    <div class="image-row d-flex justify-content-center">
-    <div><img id="h16" width=110 height=110 src="closed.jpg" onclick="check(14)"></div>
-    <div><img id="h17" width=110 height=110 src="closed.jpg" onclick="check(15)"></div>
-    <div><img id="h18" width=110 height=110 src="closed.jpg" onclick="check(16)"></div>
-    <div><img id="h19" width=110 height=110 src="closed.jpg" onclick="check(17)"></div>
-    <div><img id="h20" width=110 height=110 src="closed.jpg" onclick="check(18)"></div>
-    </div>
-</div>
-<div class="container">
-    <div class="image-row d-flex justify-content-center">
-    <div><img id="h21" width=110 height=110 src="closed.jpg" onclick="check(19)"></div>
-    <div><img id="h22" width=110 height=110 src="closed.jpg" onclick="check(20)"></div>
-    <div><img id="h23" width=110 height=110 src="closed.jpg" onclick="check(21)"></div>
-    <div><img id="h24" width=110 height=110 src="closed.jpg" onclick="check(22)"></div>
-    <div><img id="h25" width=110 height=110 src="closed.jpg" onclick="check(23)"></div>
-    </div>
-</div>
-<script>
-  let ids=[];
-  for(let i=0;i<25;i++){
-    ids[i]="img"+i
+    <div class="container"> 
+      <div class="image-row d-flex">
+          <div >
+              <img id ="h0" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(0)">
+          </div>
+          <div >
+              <img id ="h1" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(1)">
+          </div>
+          <div > 
+              <img id ="h2" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(2)">
+          </div>
+          <div >
+              <img id ="h3" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(3)">
+          </div>
+          <div>
+              <img id ="h4" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(4)">
+          </div>
+      </div>
+      <div class="image-row d-flex">
+          <div>
+              <img id ="h5" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(5)">
+          </div>
+          <div>
+              <img id ="h6" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(6)">
+          </div>
+          <div >
+              <img id ="h7" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(7)">
+          </div>
+          <div >
+              <img id ="h8" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(8)">
+          </div>
+          <div >
+              <img id ="h9" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(9)">
+          </div>
+      </div>
+      <div class="image-row d-flex">
+          <div >
+              <img id ="h10" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(10)">
+          </div>
+          <div >
+              <img id ="h11" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(11)">
+          </div>
+          <div >
+              <img id ="h12" src="help.jpg" alt="chesttreasure" height="150" width="150" onclick="help()">
+          </div>
+          <div >
+              <img id ="h13" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(13)">
+          </div>
+          <div >
+              <img id ="h14" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(14)">
+          </div>
+      </div>
+      <div class="image-row d-flex">
+          <div>
+              <img id ="h15" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(15)">
+          </div>
+          <div >
+              <img id ="h16" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(16)">
+          </div>
+          <div >
+              <img id ="h17" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(17)">
+          </div>
+          <div >
+              <img id ="h18" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(18)">
+          </div>
+          <div>
+              <img id ="h19" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(19)">
+          </div>
+      </div>   
+      <div class="image-row d-flex">
+          <div >
+              <img id ="h20" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(20)">
+          </div class="col">
+          <div>
+              <img id ="h21" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(21)">
+          </div>
+          <div>
+              <img id ="h22" src="chesttreasure.jpg" alt="chesttreasuret" height="150" width="150" onclick="check(22)">
+          </div>
+          <div>
+              <img id ="h23" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(23)">
+          </div>
+          <div>
+              <img id ="h24" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(24)">
+          </div>
+      </div>
+      </div>
+
+  <script>
+      var ids = ["h0","h1","h2","h3","h4","h5","h6","h7","h8","h9","h10",
+      "h11","h12","h13","h14","h15","h16","h17","h18","h19","h20","h21","h22",
+      "h23","h24"]
+
+  var chestCount=0
+  var score =0
+  var lastCheck=12
+  var treasureLocation=18
+  function check(position){      
+      var id = ids[position]       
+      img = document.getElementById(id)
+      if(position==treasureLocation){        
+      img.src = "./treasureopen.jpg"
+      }
+      else
+      img.src = "./sademoji.png"        
+      chestCount++
+      score = score+1
+      document.getElementById("chests").innerHTML = "Number of chests checked is "+chestCount
+      document.getElementById("score").innerHTML = "Score is "+score
+      
+      lastCheck = position
+     
   }
-let chestCount=0;
-let score=0;
-let lastCheck=12;
-let treasureLocation=18;
-function check(position){
- let imgLoc= document.getElementById(ids[position]);
- if(position==treasureLocation){
-  imgLoc.src="treasureopen.jpg";
+
+  function help(){
+      console.log(lastCheck)
+      rowLastCheck = lastCheck%5
+      colLastCheck = Math.floor(lastCheck/5)
+      rowTreasureLocation = treasureLocation%5
+      colTresureLocation = Math.floor(treasureLocation/5)
+      console.log(rowLastCheck)
+      console.log(colLastCheck)
+      console.log(rowTreasureLocation)
+      console.log(colTresureLocation)
+      score = score+2
+      
+      document.getElementById("score").innerHTML = "Score is "+score
+      if((rowLastCheck==rowTreasureLocation)&&(colLastCheck>colTresureLocation)){
+          document.getElementById("help").innerHTML = "up"
+      }
+      else if((rowLastCheck==rowTreasureLocation)&&(colLastCheck<colTresureLocation)){
+          document.getElementById("help").innerHTML = "down"
+      }
+      else if((rowLastCheck>rowTreasureLocation)&&(colLastCheck==colTresureLocation)){
+          document.getElementById("help").innerHTML = "left"
+      }
+      else if((rowLastCheck<rowTreasureLocation)&&(colLastCheck==colTresureLocation)){
+          document.getElementById("help").innerHTML = "right"
+      }
+      else{
+          document.getElementById("help").innerHTML = "Sorry, no help available"
+      }
+
+  }
+
   
- }
- else{
-  imgLoc.src="emptytreasure.jpg";
- }
- chestCount+=1;
- score+=1;
- document.getElementById("chests").innerHTML="Number of chests checked is "+chestCount+".";
- document.getElementById("score").innerHTML="Score is "+score+".";
- lastCheck=position;
-}
-function help(){
-  column=lastCheck%5;
-  row=lastCheck/5;
-  Columnoftreasure=treasureLocation%5;
-  Rowoftreasure=treasureLocation/5;
-  score+=2;
-  document.getElementById("score").innerHTML="Score is "+score+".";
-  if(lastCheck==treasureLocation){
-    document.getElementById("help").innerHTML="Sorry, no help available";
+  function newGame(){
+      treasureLocation = Math.floor(Math.random() * 25)
+     if(treasureLocation == 12)
+      {
+      treasureLocation = Math.floor(Math.random() * 25)
+       }
+     
+      document.getElementById("chests").innerHTML = "Number of chests checked is 0"
+      document.getElementById("score").innerHTML = "Score is 0"
+      for (var i = 0; i <= 24; i++) {
+          if(i != 12)
+              document.getElementById(ids[i]).src = "./chesttreasure.jpg"
+      }
+
+
   }
-  else if(parseInt(row)==parseInt(Rowoftreasure)){
-    if(row<Rowoftreasure){
-      document.getElementById("help").innerHTML="right";
-    }
-    else{
-      document.getElementById("help").innerHTML="left";
-    }
-  }
-  else if(column==treasureColumn){
-    if(lastCheck<treasureLocation){
-      document.getElementById("help").innerHTML="down";
-    }
-    else{
-      document.getElementById("help").innerHTML="up";
-    }  }
-  else{
-    document.getElementById("help").innerHTML="Sorry, no help available";
-  }
-}
-</script>
-  </body>
+
+
+  </script>    
+</body>
 </html>
