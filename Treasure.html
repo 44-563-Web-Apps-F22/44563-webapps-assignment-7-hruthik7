@@ -17,9 +17,14 @@
     <p style="background-color:aqua; text-decoration: solid; font-size: large; font-style: oblique;"> Click on the chests to search for treasure</p>
     <p id="chests" style="color:lightblue; background-color: orange; font-style: inherit;">Number of chests checked is zero</p>
     <p id="score" style="color:lightpink; background-color: lightcyan; font-style: italic;">Score is unknown</p>
-    <p id="help" style="color:lightskyblue; background-color: lightgoldenrodyellow; text-align: start;"> Help report</p>
+    <p id="help" style="color:lightskyblue; background-color: lightgoldenrodyellow; text-align: start;"> Help report</p>   
+    <br>
+    <div class="container">
+      <button type="button"   class="btn btn-primary"   onclick="newGame()">New Game</button>
+  </div>
     <div class="container"> 
       <div class="image-row d-flex">
+        
           <div >
               <img id ="h0" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(0)">
           </div>
@@ -95,7 +100,7 @@
               <img id ="h21" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(21)">
           </div>
           <div>
-              <img id ="h22" src="chesttreasure.jpg" alt="chesttreasuret" height="150" width="150" onclick="check(22)">
+              <img id ="h22" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(22)">
           </div>
           <div>
               <img id ="h23" src="chesttreasure.jpg" alt="chesttreasure" height="150" width="150" onclick="check(23)">
@@ -122,7 +127,7 @@
       img.src = "./treasureopen.jpg"
       }
       else
-      img.src = "./sademoji.jpg"        
+      img.src = "./sademoji.png"        
       chestCount++
       score = score+1
       document.getElementById("chests").innerHTML = "Number of chests checked is "+chestCount
